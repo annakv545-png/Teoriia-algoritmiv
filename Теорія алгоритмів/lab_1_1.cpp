@@ -50,7 +50,7 @@ int main() {
         cout << "Стек порожній";
     } else {
         for (int i = top_main; i >= 0; i--) {
-            cout << stack_main[i] << " "; //так нне можна через і
+            cout << stack_main[i] << " "; 
         }
     }
     cout << endl;
